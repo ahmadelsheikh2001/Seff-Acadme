@@ -1,0 +1,291 @@
+:root {
+  --Primary: #bf9b30;
+  --Green: #34a853;
+  --Red: #1a1919;
+  --Grey: #d0d0d0;
+  --Black: #000000;
+  --white: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: url(../../../Images/secondary_background.jpg) no-repeat fixed
+    center;
+  background-size: cover;
+  position: relative;
+  color: var(--white);
+}
+
+.edit-profile-container {
+  padding: 60px 0px;
+  width: 87%;
+  margin: auto;
+}
+
+.edit-profile-overlayOnImage {
+  position: absolute;
+  z-index: -5;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(29, 29, 29, 0.9);
+}
+
+.edit-profile-background {
+  position: absolute;
+  z-index: -3;
+  background-color: var(--Red);
+  top: 48%;
+  left: 0;
+  width: 100%;
+  height: 53%;
+}
+
+/* ///////////////////////////////////////    Sub Title      //////////////////////////////////////////// */
+
+.eidt-profile-sub-title {
+  color: var(--Grey);
+}
+
+.eidt-profile-line {
+  background-color: var(--Primary);
+  width: 80px;
+  height: 1px;
+  margin: -7px 0px 5px 2px;
+}
+
+/* /////////////////////////////////    Image-Name-Button   ////////////////////////////////////// */
+
+.Image-Name-Button-box-Eidtprofile {
+  border-radius: 8px;
+  background-color: var(--Black);
+}
+
+.Image-Name-Button-icon-Eidtprofile {
+  font-size: 80px;
+}
+
+.Image-Name-Button-icon1213-Eidtprofile {
+  margin-left: 70px;
+  color: var(--Primary);
+}
+
+.Image-Name-Button-button-Eidtprofile {
+  font-size: 14px !important;
+  margin-top: 10px;
+  width: 120px;
+  padding: 5px;
+  color: var(--white);
+  background-color: var(--Primary);
+}
+
+.Image-Name-Button-text-Eidtprofile {
+  margin: 5px 35px 0px;
+}
+
+@media (max-width: 768px) {
+  .Image-Name-Button-icon1213-Eidtprofile {
+    display: none;
+  }
+  .Image-Name-Button-text-Eidtprofile {
+    margin: 5px;
+  }
+}
+
+@media (max-width: 567px) {
+  .Image-Name-Button-text-Eidtprofile {
+    margin-top: 15px;
+  }
+}
+
+/* ////////////////////////////   Personal-Education-Contact   ///////////////////// */
+
+.personal5-education-contact-box {
+  border-radius: 8px;
+  padding: 25px 20px;
+  background-color: rgba(0, 0, 0, 0.478);
+}
+
+/* //////////////////////    personal info box ///////////////////// */
+
+.personal5-info-title-box {
+  background-color: var(--Black);
+  border-radius: 8px;
+  padding: 15px 20px 7px;
+  font-size: 19px;
+}
+
+.personal5-info-subtitle-box {
+  padding: 15px 20px 7px;
+}
+
+.personal5-info-subtitle {
+  margin-top: 8px;
+}
+
+.personal5-info-subtitle-input {
+  background-color: rgba(201, 201, 201, 0.281);
+  border-radius: 4px;
+  color: white;
+  padding: 2px 15px;
+  width: 100%;
+  border: none;
+  margin-top: 8px;
+  /* font-size: 16.5px; */
+}
+
+.personal5-info-subtitle-id {
+  padding-left: 14px;
+  margin-top: 8px;
+}
+.personal5-info-subtitle1 {
+  margin-top: 7px;
+  font-size: 19px;
+}
+.personal5-info-subtitle-box {
+  padding: 15px 20px 7px;
+}
+
+/* ////////////////////////////////////////    education box          ///////////////////////////////// */
+.education5-title-box {
+  background-color: var(--Black);
+  border-radius: 8px;
+  padding: 15px 20px 12px;
+  font-size: 19px;
+}
+
+.education5-subtitle-input {
+  display: block;
+  background-color: rgba(201, 201, 201, 0.281);
+  border-radius: 4px;
+  color: white;
+  padding: 2px 9px;
+  width: 100%;
+  border: none;
+  margin: 4px 0px 15px;
+}
+
+.education5-subtitle-box {
+  padding: 15px 20px 20px;
+}
+
+.education5-subtitle {
+  font-size: 19px;
+}
+
+/* /////////////////////////////////    Contact-info-title -box        ///////////////////////////// */
+
+.Contact5-info-title-box {
+  background-color: var(--Black);
+  border-radius: 8px;
+  padding: 15px 20px 12px;
+  font-size: 19px;
+}
+
+.Contact5-info-subtitle-box {
+  padding: 15px 20px 7px;
+}
+
+.Contact5-info-subtitle-icon {
+  font-size: 18px;
+  color: var(--Primary);
+}
+
+.Contact5-info-subtitle {
+  font-size: 19px;
+}
+
+.Contact5-info-subtitle-input {
+  display: block;
+  background-color: rgba(201, 201, 201, 0.281);
+  border-radius: 4px;
+  color: white;
+  padding: 2px 0px 1px 9px;
+  width: 100%;
+  border: none;
+  margin: 4px 0px 15px;
+}
+
+/* /////////////////       About-InProgress-Previous-box  ////////////////////// */
+
+.About5-InProgress-Previous-box {
+  padding: 0px;
+}
+
+/* ///////////////////// About-Profile-box ////////////////// */
+.About5-Profile-box {
+  background-color: var(--Black);
+  border-radius: 8px;
+  padding: 33px 28px 20px;
+}
+
+.About5-Profile-subtitle {
+  display: block;
+  background-color: rgba(201, 201, 201, 0.281);
+  border-radius: 4px;
+  color: white;
+  padding: 10px 0px 20px 10px;
+  width: 100%;
+
+  border: none;
+  margin: 4px 0px 15px;
+}
+@media (max-width: 820px) {
+  .About5-Profile-box {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .About5-Profile-box {
+    margin-top: 30px;
+  }
+}
+
+/* ////////////////////    InProgress-profile-box    /////////////////// */
+
+.InProgress5-profile-title {
+  margin-left: 20px;
+}
+
+.Card-InProgressp5-rofile-box {
+  width: 100%;
+  margin-left: 0px;
+  background-color: var(--Black);
+  border-radius: 8px;
+  padding: 25px 0px 25px 10px;
+}
+
+.Card-InProgressp5-rofile-subtitle {
+  color: var(--Primary);
+}
+.Card-InProgressp5-rofile-lev1 {
+  margin-left: auto !important;
+}
+
+@media (max-width: 567px) {
+  .Card-InProgressp5-rofile-subtitle,
+  .Card-InProgressp5-rofile-subtitle1 {
+    font-size: 14px;
+  }
+  .Card-InProgressp5-rofile-title {
+    font-size: 17px;
+  }
+  .Card-InProgressp5-rofile-lev1 {
+    margin-left: auto !important;
+  }
+}
+
+@media (max-width: 567px) {
+  .Card-InProgressp5-rofile-lev1 {
+    font-size: 15px;
+  }
+}
+
+/* ///////////////////         Previous-profile-box         ///////////////////// */
+.Previous5-profile-title {
+  margin-left: 20px;
+}
